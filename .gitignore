@@ -19,14 +19,12 @@ coverage/
 **/*.log
 
 # Environment files - keep only .env.example
-.env
-.env.*
 !.env.example
 
 # Editor directories and files
-.vscode/
 .idea/
 *.swp
 *.swo
 *~
 .DS_Store
+config.bat

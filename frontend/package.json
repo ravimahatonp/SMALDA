@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "node ../contracts/sync.mjs && next dev --turbopack",
-    "build": "node ../contracts/sync.mjs && next build",
-    "start": "next start",
+    "dev": "node init && node ../contracts/sync.mjs && next dev --turbopack",
+    "build": "node init && node ../contracts/sync.mjs && next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "check:locales": "node scripts/check-locales.mjs",
